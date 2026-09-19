@@ -1,0 +1,929 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    width: 100%;
+    overflow-x: hidden;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+.Hero_Atracciones{
+    height: 75vh;
+    width: 100%;
+    background-color: #5d8843;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+  
+  
+}
+.Hero_Atracciones_Container{
+    height: 100%;
+    width: 50%;   
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 0 60px;
+    
+}
+.Hero_Atracciones_Container h1{
+    color: #f1ffb6;
+    font-family: "National Park";
+    font-size: 80px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    line-height: 90%; 
+      
+}
+.Hero_Atracciones_Container h2{
+    color: #f1ffb6; 
+    font-family: "National Park";
+    font-size: 25px;
+    font-weight: 200;
+    margin: 0;
+    letter-spacing: 5px;
+  
+     
+}
+.Hero_Atracciones_Container p{
+    color: #f1ffb6; 
+    font-family: "National Park";
+    font-size: 28px;
+    font-weight: 400;
+    margin: 0;
+    letter-spacing: 5px;
+     
+}
+.Hero_Imagen{
+    background-image: url(../Assets/png/pavo\ nuestras.png);    
+    background-repeat: no-repeat;
+    background-size: cover;    
+    height: 100%;
+    width: 50%;
+    clip-path: ellipse(75% 100% at 75% 50%);
+    
+}
+.Atracciones_Intro_Container{
+    height: 300px;
+    width: 100%;
+    background-color: #f1ffb6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Atracciones_Intro_Container h2{
+    color: #5d8843;
+    font-family: "National Park";
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 20px;  
+    margin-top: 20px;  
+    
+}
+.Atracciones_Intro_Container p{
+    text-align: center;   
+    font-size: 18px;
+    color: #5d8843;   
+    font-family: "National Park";    
+    font-weight: 400;    
+    letter-spacing: 3px;
+    text-align: center;  
+    margin-bottom: 20px;    
+}
+
+.Atracciones_Intro_Container img{
+    height: auto;
+    width: 35px;    
+    transition: ease-in-out;
+    color: #9dba3b;
+}
+.Atracciones_Intro_Container img:hover{
+    transform: scale(1.2);    
+}
+
+.Atraciones_Parque{
+    height: 80vh;
+    width: 100vw;
+    background-color: #f5f1d8;
+    display: flex;
+    flex-direction: row;
+}
+.Atraciones_Parque_Imagen{ 
+    width: 50%;
+    height: 100%; 
+    position: relative; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;     
+    clip-path: ellipse(75% 100% at 25% 50%);
+}
+.Animales{
+     background-image: url(../Assets/png/Atracciones1.png);  
+}
+.Museo{
+     background-image: url(../Assets/png/Atracciones2.png);  
+}
+.Naturaleza{
+    background-image: url(../Assets/png/Atracciones3.png); 
+
+}
+.Cabana{
+    background-image: url(../Assets/png/Atracciones4.png); 
+
+}
+
+
+
+.Atraccion_Invertida .Atraciones_Parque_Imagen {
+    clip-path: ellipse(75% 100% at 75% 50%);
+}
+.Atraccion_Invertida {
+    flex-direction: row-reverse;
+     
+}
+.Atraciones_Parque_Texto{
+    position: absolute;
+    left: 15%;
+    top: 80%;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+}
+.Atraciones_Parque_Texto h2{
+    color: #f5f1d8;
+    font-family: "National Park";
+    font-size: 150px;
+    font-weight: 800;
+    opacity: 70%;
+    margin: 0;
+}
+.Atraciones_Parque_Texto p{
+    color: #f5f1d8;
+    font-family: "National Park";
+    font-size: 30px;
+    font-weight: 400;    
+    margin: 0;
+   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    
+}
+
+
+.Atraciones_Parque_Contenido{
+    width: 50%;
+    height: 100%; 
+    background-color:#f5f1d8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 80px;
+     
+}
+
+.Atraciones_Parque_Contenido h2{
+    width: 80%;
+    color: #5d8843;
+    font-family: "National Park";
+    font-size: 40px;
+    font-weight: 200;
+    margin: 0;
+}
+.Atraciones_Parque_Contenido h3{
+    color: #5d8843;
+    font-family: "National Park";
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 2px;
+
+    
+}
+
+.Atraciones_Parque_Contenido p{
+    color: #5d8843;
+    font-family: "National Park";
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 3px;     
+    text-align: justify;     
+    margin-bottom: 20px;
+     
+     
+}
+
+.Atraciones_Parque_Contenido button{
+    width: 300px;
+    height: 40px;
+    font-family: "National Park";
+    font-size: 20px;
+    font-weight: 400;
+    color: #f1ffb6;
+    background-color: #9dba3b;
+    border-radius: 8px;
+    border-style: none;
+    transition: 0.3s ease;
+}
+.Atraciones_Parque_Contenido button:hover{
+    transform: scale(1.1);
+    font-family: "National Park";
+    font-size: 20px;
+    font-weight: 800;
+    color: #5d8843;
+    background-color: #ffd500;
+}
+.Lightbox{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 75vw;
+    height: 75vh;
+    background-color: rgba(93, 136, 67, 0.90);
+    z-index: 2000;
+    display: none;
+    border-radius: 40px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+.Lightbox.abierto{
+    display: flex;
+}
+.Lightbox_Informacion{
+    position: absolute;
+    left: 8%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 35%;
+    padding: 30px 35px;
+    border-right: 4px solid #f1ffb6;
+    z-index: 2;
+}
+.Lightbox_Informacion h2{
+    color: #f5f1d8;
+    font-family: "National Park";
+    font-size: 40px;
+    font-weight: 200;
+    margin: 0;
+}
+.Lightbox_Informacion h3{
+    color: #f5f1d8;
+    font-family: "National Park";
+    font-size: 45px;
+    font-weight: 800;
+    margin: 0 0 25px 0;
+}
+.Lightbox_Informacion p{
+    color: #f1ffb6;
+    font-family: "National Park";
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 1.4;
+    margin: 0;
+     
+}
+.Lightbox_Imagen{
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    transform: translateY(-50%);
+    max-width: 45%;
+    max-height: 80%;
+    object-fit: contain;
+    border-radius: 40px;
+    z-index: 3;
+}
+
+.Lightbox_Contador{
+    position: absolute;
+    bottom: 5%;
+    right: 30%;
+    color: #f1ffb6;
+    font-family: "National Park";
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+}
+.Lightbox_Cerrar{
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    width: 45px;
+    height: 45px;
+    border: none;
+    border-radius: 8px;
+    background-color: #9dba3b;
+    color: #f1ffb6;
+    font-family: "National Park";
+    font-size: 30px;
+    cursor: pointer;
+    z-index: 5;
+}
+.Lightbox_Anterior{
+    position: absolute;
+    left: 7%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    background-color: #9dba3b;
+    color: #f1ffb6;
+    font-family: "National Park";
+    font-size: 30px;
+    font-weight: 400;
+    cursor: pointer;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Lightbox_Siguiente{
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    background-color: #9dba3b;
+    color: #f1ffb6;
+    font-family: "National Park";
+    font-size: 30px;
+    cursor: pointer;
+    z-index: 5;
+}
+.Lightbox_Siguiente:hover{
+    transform: translateY(-50%) scale(1.1);
+    background-color: #ffd500;
+    color: #5d8843;
+}
+.Lightbox_Anterior:hover{
+    transform: translate(-50%, -50%) scale(1.1);
+
+    background-color: #ffd500;
+    color: #5d8843;
+}
+.Lightbox_Cerrar:hover{
+    transform: scale(1.1);
+    background-color: #ffd500;
+    color: #5d8843;
+}
+
+/* =========================
+   Empieza version celular
+========================= */
+
+
+@media (max-width: 768px) {
+
+.Hero_Atracciones {
+        height: 50vh;
+        width: 100%;
+        margin-top: 75px;
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+}
+
+.Hero_Atracciones_Container {
+    width: 100%;
+    height: 100%;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.Hero_Atracciones_Container h2 {
+    font-size: 18px;
+    letter-spacing: 3px;
+    margin: 0 0 5px;
+    font-weight: 400;
+    text-shadow: 2px 2px 6px rgb(0, 0, 0.9);
+}
+
+.Hero_Atracciones_Container h1 {
+    font-size: 25px;
+    line-height: 0.9;
+    margin-bottom: 10px;
+    color: #ffd500;
+    text-shadow: 2px 2px 6px rgb(0, 0, 0.9);
+}
+
+.Hero_Atracciones_Container p {
+    font-size: 15px;
+    letter-spacing: 3px;
+    line-height: 1.2;
+    font-weight: 400;
+     text-shadow: 2px 2px 6px rgb(0, 0, 0.9);
+}
+
+.Hero_Imagen {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    right:0px;
+    top: 0;
+    background-size: cover;
+    background-position: center center;
+    z-index: 1;
+    clip-path: none;     
+     
+}
+
+.Atracciones_Intro_Container {
+    height: 250px;
+    width: 100%;
+    padding: 0 12px;
+}
+
+.Atracciones_Intro_Container h2 {
+    font-size: 22px;
+    line-height: 1;
+    text-align: center;
+    margin: 0 0 15px;
+}
+
+.Atracciones_Intro_Container p {
+    width: 100%;
+    font-size: 15px;
+    line-height: 1.3;
+    letter-spacing: 1.5px;
+    text-align: center;
+    margin: 0 0 15px;
+    
+}
+
+.Atracciones_Intro_Container img {
+    width: 35px;
+}
+
+/* =========================
+       LIGHTBOX - CELULAR
+    ========================= */
+
+.Lightbox {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transform: none;
+    border-radius: 0;
+    display: none;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #5d8843;
+}
+
+.Lightbox.abierto {
+    display: flex;
+}
+.Lightbox_Imagen {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    max-width: 90%;
+    height: 90%;
+    max-height: 90%;
+    object-fit: contain;
+    border-radius: 15px;
+    z-index: 3;
+}
+.Lightbox_Informacion {
+    position: absolute;
+    left: 0;
+    top: auto;
+    bottom: 8%;
+    transform: none;
+    width: 100%;
+    padding: 0 25px;
+    border-right: none;
+    text-align: center;
+    z-index: 2;
+}
+
+.Lightbox_Informacion h2 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.Lightbox_Informacion h3 {
+    font-size: 30px;
+    margin: 0 0 8px;
+}
+
+.Lightbox_Informacion p {
+    font-size: 14px;
+    line-height: 1.3;
+    margin: 0;
+}
+
+.Lightbox_Anterior {
+    left: 35%;
+    top: 67%;
+    transform: translate(-50%, -50%);
+    width: 40px;
+    height: 40px;
+    z-index: 5;
+}
+
+.Lightbox_Siguiente {
+    right: 35%;
+    top: 67%;
+    transform: translate(50%, -50%);
+    width: 40px;
+    height: 40px;
+    z-index: 5;
+}
+
+.Lightbox_Contador {
+    position: absolute;
+    bottom: 3%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    z-index: 5;
+}
+
+.Lightbox_Cerrar {
+    top: 200px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    z-index: 6;
+}
+
+/* =========================
+       INICIO-ATRACCIONES - ANIMALES
+    ========================= */
+
+.Atraciones_Parque#animales {
+    width: 100%;
+    height: auto;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.Atraciones_Parque#animales .Atraciones_Parque_Imagen {
+    width: 100%;
+    height: 250px;
+    flex-shrink: 0;
+    clip-path: none;
+    background-position: center;
+}
+
+.Atraciones_Parque#animales .Atraciones_Parque_Texto {
+    left: 20px;
+    top: auto;
+    bottom: 20px;
+    transform: none;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+   
+}
+
+.Atraciones_Parque#animales .Atraciones_Parque_Texto h2 {
+    font-size: 120px;
+     line-height: 0.8;
+}
+
+.Atraciones_Parque#animales .Atraciones_Parque_Texto p {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 1.2;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.Atraciones_Parque#animales .Atraciones_Parque_Contenido {
+    width: 100%;
+    height: auto;
+    min-height: 300px;
+    padding: 40px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.Atraciones_Parque#animales .Atraciones_Parque_Contenido h2 {
+    width: auto;
+    font-size: 25px;
+    line-height: 1;
+    margin: 0;
+}
+
+.Atraciones_Parque#animales .Atraciones_Parque_Contenido h3 {
+    font-size: 35px;
+    line-height: 1;
+    margin: 0 0 15px;
+}
+
+.Atraciones_Parque#animales .Atraciones_Parque_Contenido p {
+    font-size: 15px;
+    line-height: 1.35;
+    letter-spacing: 1px;
+    text-align: justify;
+    margin: 0 0 20px;
+}
+.Atraciones_Parque#animales .Atraciones_Parque_Contenido button {
+    width: 80%;
+    max-width: 300px;
+    height: 40px;
+    font-size: 17px;
+}
+
+/* =========================
+      FIN-ATRACCIONES - ANIMALES
+    ========================= */
+
+    /* =========================
+       INICIO /ATRACCIONES - MUSEO
+    ========================= */
+
+.Atraciones_Parque#arte {
+    width: 100%;
+    height: auto;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.Atraciones_Parque#arte .Atraciones_Parque_Imagen {
+    width: 100%;
+    height: 250px;
+    flex-shrink: 0;
+    clip-path: none;
+    background-position: center;
+}
+
+.Atraciones_Parque#arte .Atraciones_Parque_Texto {
+    left: 20px;
+    top: auto;
+    bottom: 20px;
+    transform: none;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.Atraciones_Parque#arte .Atraciones_Parque_Texto h2 {
+    font-size: 120px;
+    line-height: 0.8;
+}
+
+.Atraciones_Parque#arte .Atraciones_Parque_Texto p {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 1.2;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.Atraciones_Parque#arte .Atraciones_Parque_Contenido {
+    width: 100%;
+    height: auto;
+    min-height: 300px;
+    padding: 40px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.Atraciones_Parque#arte .Atraciones_Parque_Contenido h2 {
+    width: auto;
+    font-size: 25px;
+    line-height: 1;
+    margin: 0;
+}
+
+.Atraciones_Parque#arte .Atraciones_Parque_Contenido h3 {
+    font-size: 35px;
+    line-height: 1;
+    margin: 0 0 15px;
+}
+
+.Atraciones_Parque#arte .Atraciones_Parque_Contenido p {
+    font-size: 15px;
+    line-height: 1.35;
+    letter-spacing: 1px;
+    text-align: justify;
+    margin: 0 0 20px;
+}
+
+.Atraciones_Parque#arte .Atraciones_Parque_Contenido button {
+    width: 80%;
+    max-width: 300px;
+    height: 40px;
+    font-size: 17px;
+}
+/* =========================
+   INICIO/ATRACCIONES - NATURALEZA
+========================= */
+
+.Atraciones_Parque#naturaleza {
+    width: 100%;
+    height: auto;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.Atraciones_Parque#naturaleza .Atraciones_Parque_Imagen {
+    width: 100%;
+    height: 250px;
+    flex-shrink: 0;
+    clip-path: none;
+    background-position: center;
+}
+
+.Atraciones_Parque#naturaleza .Atraciones_Parque_Texto {
+    left: 20px;
+    top: auto;
+    bottom: 20px;
+    transform: none;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.Atraciones_Parque#naturaleza .Atraciones_Parque_Texto h2 {
+    font-size: 120px;
+    line-height: 0.8;
+}
+
+.Atraciones_Parque#naturaleza .Atraciones_Parque_Texto p {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 1.2;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.Atraciones_Parque#naturaleza .Atraciones_Parque_Contenido {
+    width: 100%;
+    height: auto;
+    min-height: 300px;
+    padding: 40px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.Atraciones_Parque#naturaleza .Atraciones_Parque_Contenido h2 {
+    width: auto;
+    font-size: 25px;
+    line-height: 1;
+    margin: 0;
+}
+
+.Atraciones_Parque#naturaleza .Atraciones_Parque_Contenido h3 {
+    font-size: 35px;
+    line-height: 1;
+    margin: 0 0 15px;
+}
+
+.Atraciones_Parque#naturaleza .Atraciones_Parque_Contenido p {
+    font-size: 15px;
+    line-height: 1.35;
+    letter-spacing: 1px;
+    text-align: justify;
+    margin: 0 0 20px;
+}
+
+.Atraciones_Parque#naturaleza .Atraciones_Parque_Contenido button {
+    width: 80%;
+    max-width: 300px;
+    height: 40px;
+    font-size: 17px;
+}
+/* =========================
+   FIN/ATRACCIONES - NATURALEZA
+========================= */
+
+/* =========================
+   INICIO/ATRACCIONES - CABAÑA
+========================= */
+
+.Atraciones_Parque#cabana {
+    width: 100%;
+    height: auto;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.Atraciones_Parque#cabana .Atraciones_Parque_Imagen {
+    width: 100%;
+    height: 250px;
+    flex-shrink: 0;
+    clip-path: none;
+    background-position: center;
+}
+
+.Atraciones_Parque#cabana .Atraciones_Parque_Texto {
+    left: 20px;
+    top: auto;
+    bottom: 20px;
+    transform: none;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.Atraciones_Parque#cabana .Atraciones_Parque_Texto h2 {
+    font-size: 120px;
+    line-height: 0.8;
+}
+
+.Atraciones_Parque#cabana .Atraciones_Parque_Texto p {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 1.2;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.Atraciones_Parque#cabana .Atraciones_Parque_Contenido {
+    width: 100%;
+    height: auto;
+    min-height: 300px;
+    padding: 40px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.Atraciones_Parque#cabana .Atraciones_Parque_Contenido h2 {
+    width: auto;
+    font-size: 25px;
+    line-height: 1;
+    margin: 0;
+}
+
+.Atraciones_Parque#cabana .Atraciones_Parque_Contenido h3 {
+    font-size: 35px;
+    line-height: 1;
+    margin: 0 0 15px;
+}
+
+.Atraciones_Parque#cabana .Atraciones_Parque_Contenido p {
+    font-size: 15px;
+    line-height: 1.35;
+    letter-spacing: 1px;
+    text-align: justify;
+    margin: 0 0 20px;
+}
+
+.Atraciones_Parque#cabana .Atraciones_Parque_Contenido button {
+    width: 80%;
+    max-width: 300px;
+    height: 40px;
+    font-size: 17px;
+}
+
+/* =========================
+   FIN/ATRACCIONES - CABAÑA
+========================= */
+
+
+
+
+
+
+
+
+
+
+}
+
+
+ 
+ 
+ 
+ 
+ 

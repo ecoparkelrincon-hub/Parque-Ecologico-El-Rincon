@@ -1,0 +1,133 @@
+/* =========================
+   MENÚ FLOTANTE DE CONTACTO
+========================= */
+
+.Contacto_Flotante {
+    display: none;
+}
+
+@media (max-width: 768px) {
+
+    /* =========================
+       MENÚ FLOTANTE DE CONTACTO
+    ========================= */
+
+    .Contacto_Flotante {
+        position: fixed;
+        right: 25px;
+        bottom: 30px;
+        z-index: 900;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 12px;
+    }
+
+
+    /* BOTÓN PRINCIPAL */
+
+    .Contacto_Flotante_Boton {
+        width: 55px;
+        height: 55px;
+        border: none;
+        border-radius: 50%;
+        background-color: #a64343;
+        color: #f1ffb6;
+        font-size: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25);
+        transition: transform 0.3s ease, background-color 0.3s ease;
+    }
+
+    .Contacto_Flotante_Boton:hover {
+        transform: scale(1.1);
+        background-color: #5d8843;
+    }
+
+
+    /* OPCIONES */
+
+    .Contacto_Flotante_Opciones {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+    }
+
+
+    /* BOTONES DE LAS OPCIONES */
+
+    .Contacto_Flotante_Opciones a {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        color: #f1ffb6;
+        background-color: #5d8843;
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.20);
+        transition: transform 0.3s ease, background-color 0.3s ease;
+    }
+
+    .Contacto_Flotante_Boton::before {
+        content: "CONTÁCTANOS";
+        position: absolute;
+        right: 65px;
+        padding: 8px 12px;
+        background-color: #ffffff;
+        color: #5d8843;
+        font-family: "National Park";
+        font-size: 13px;
+        font-weight: 800;
+        border-radius: 5px;
+        white-space: nowrap;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    }
+
+    .Contacto_Flotante_Opciones a:hover {
+        transform: scale(1.1);
+        background-color: #9dba3b;
+    }
+
+    .Contacto_Flotante_Opciones i {
+        font-size: 28px;
+    }
+
+    .Contacto_Flotante_Opciones.abierto {
+        display: flex;
+    }
+
+
+    /* COLORES DE LAS REDES */
+
+    .Flotante_Waze {
+        background-color: #33ccff !important;
+        color: #474f41 !important;
+    }
+
+    .Flotante_Waze:hover {
+        background-color: #2bbeee !important;
+    }
+
+    .Flotante_Instagram {
+        background: linear-gradient(45deg, #f9ce34, #ee2a7b, #6228d7) !important;
+        color: #ffffff;
+    }
+
+    .Flotante_Facebook {
+        background-color: #1877f2 !important;
+        color: #ffffff;
+    }
+
+    .Flotante_Tiktok {
+        background-color: #000000 !important;
+        color: #ffffff;
+    }
+
+}

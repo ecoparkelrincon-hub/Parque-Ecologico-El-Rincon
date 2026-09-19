@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atracciones | Parque Ecológico El Rincón</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=National+Park:wght@200..800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/Atracciones.css">
+<link rel="stylesheet" href="css/CTA.css">  
+<link rel="stylesheet" href="css/Header.css">
+<link rel="stylesheet" href="css/Footer.css">
+<link rel="stylesheet" href="css/Menu_Flotante.css">
+</head>
+<body>
+         <!-- ==================== HEADER ==================== -->
+
+   <header id="header"></header>
+    <main>
+        <section class="Hero_Atracciones">
+            <div class="Hero_Atracciones_Container">
+                <h2>Nuestros espacios</h2>
+                <h1>DESCUBRE <br> CADA RINCÓN</h1>
+                <p>ANIMALES · ARTE · NATURALEZA</p>                
+            </div>
+            <div class="Hero_Imagen">
+            </div>
+        </section>
+        <section class="Atraciones_Intro">
+            <div class="Atracciones_Intro_Container">
+                <h2>MUCHO MÁS QUE UN RECORRIDO</h2>
+                <p>En el Rincón, los Animales, el Arte y la Naturaleza se encuentran en un mismo lugar.
+                    <br>Descubre cada uno de los espacios que hacen especial nuestra experiencia.</p>
+                <img src="Assets/png/FLecha_Historia_verde.png" alt="">
+                <img src="Assets/png/FLecha_Historia_verde.png" alt="">
+            </div>
+        </section>
+        <section class="Atraciones_Parque" id="animales">
+            <div class="Atraciones_Parque_Imagen Animales"> 
+                <div class="Atraciones_Parque_Texto">
+                    <h2>01</h2>
+                   <p>ANIMALES <br>
+                   FANTASTICOS</p>
+                </div>                               
+                
+            </div>
+            <div class="Atraciones_Parque_Contenido">                
+                <h2>NUESTROS</h2>
+                <h3>ANIMALES</h3>
+                 <p>Los animales son parte esencial del Parque Ecológico El Rincón, durante tu visita podrás observar gallinas de exhibición, faisanes, pavos reales, marranitos y otras especies que llenan de vida nuestros espacios.</p>
+                 <button class="Boton_Galeria" data-galeria="Animales">VER GALERÍA</button>
+            </div>
+        </section>
+
+        <section class="Atraciones_Parque Atraccion_Invertida" id="arte">
+
+    <div class="Atraciones_Parque_Imagen Museo">
+        <div class="Atraciones_Parque_Texto">
+            <h2>02</h2>
+            <p>
+                MUSEO<br>
+                IMPRESIONANTE</p>
+        </div>
+    </div>
+
+    <div class="Atraciones_Parque_Contenido">
+        <h2>NUESTRO</h2>
+        <h3>MUSEO</h3>
+
+        <p>Un espacio donde las obras y creaciones, de nuestros maestros forman parte de la experiencia del parque.
+            <br>El museo reune Arte, Cultura e historia en un ambiente único que invita a la reflexion y al asombro. </p>
+
+        <button class="Boton_Galeria" data-galeria="Museo">VER GALERÍA</button>
+    </div>
+
+</section>
+<section class="Atraciones_Parque" id="naturaleza">
+            <div class="Atraciones_Parque_Imagen Naturaleza"> 
+                <div class="Atraciones_Parque_Texto">
+                    <h2>03</h2>
+                   <p>UN ENTORNO <br>
+                   PARA DISFRUTAR</p>
+                </div>                               
+                
+            </div>
+            <div class="Atraciones_Parque_Contenido">                
+                <h2>NUESTRA</h2>
+                <h3>NATURALEZA</h3>
+                 <p>Plantas, arboles, aromas y paisajes que acompañan el recorrido y hacen parte de la escencia de el Rincón.
+                    <br>Aqui podras respirar aire puro y disfrutar de un entorno natural único.</p>
+                 <button class="Boton_Galeria" data-galeria="Naturaleza">VER GALERÍA</button>
+            </div>
+        </section>
+        <section class="Atraciones_Parque Atraccion_Invertida" id="cabana">
+
+    <div class="Atraciones_Parque_Imagen Cabana">
+        <div class="Atraciones_Parque_Texto">
+            <h2>04</h2>
+            <p>
+                HISTORIA EN<br>
+                CADA DETALLE</p>
+        </div>
+    </div>
+
+    <div class="Atraciones_Parque_Contenido">
+        <h2>LA</h2>
+        <h3>CABAÑA</h3>
+
+        <p>Contruida con nuestras propias manos, la cabaña es uno de los espacios que representa el esfuerzo y la historia detrás de el Rincón.
+            <br>Un lugar lleno de detalles, tradición y calidez. </p>
+
+        <button class="Boton_Galeria" data-galeria="Cabana">VER GALERÍA</button>
+    </div>
+
+</section>
+</main>
+ <!-- LIGHTBOX -->
+<!-- LIGHTBOX -->
+
+<div class="Lightbox" id="Lightbox">
+
+    <button class="Lightbox_Cerrar">×</button>
+
+    <div class="Lightbox_Informacion">
+
+        <h2>NUESTROS</h2>
+        <h3>ANIMALES</h3>
+        <p>
+            Los animales son parte esencial
+            del Parque Ecológico El Rincón.
+        </p>
+
+    </div>
+
+    <button class="Lightbox_Anterior">‹</button>
+
+    <img
+    class="Lightbox_Imagen"alt="Imagen del Parque Ecológico El Rincón"
+>
+    <p class="Lightbox_Contador">1 / 8</p>
+
+    <button class="Lightbox_Siguiente">›</button>
+
+</div>
+
+<section id="cta"
+    data-titulo="YA CONOCES NUESTROS ESPACIOS."
+    data-subtitulo="AHORA VEN A VIVIRLOS."
+    data-boton="ESCRÍBENOS POR WHATSAPP"
+    data-enlace="https://wa.me/573212296846"
+    data-externo="true">
+
+</section>
+ 
+ <footer id="footer"></footer>    
+  
+    <script src="Java_Script/Header.js"></script>
+    <script src="Java_Script/Footer.js"></script>
+    <script src="Java_Script/Galeria.js"></script>
+    <script src="Java_Script/Cta.js"></script>
+    <script src="Java_Script/Menu_Flotante.js"></script>
+</body>
+ 

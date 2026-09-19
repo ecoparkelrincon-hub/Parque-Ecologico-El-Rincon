@@ -1,0 +1,289 @@
+/* ========================================
+   INICIO footer - ESCRITORIO
+======================================== */
+
+.Footer_Logo{
+    height: 40px;
+    background-color: #5d8843;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+
+.Footer_Logo img{
+    height: 28px;
+    width: auto;
+}
+
+.Footer_Logo h2{
+    color: #f1ffb6;
+   font-family: "National Park";
+    font-size: 16px;
+    font-weight: 600;
+    margin: 5px 0 0 0;
+    letter-spacing: 5px;
+}
+
+.Footer_Logo p{
+    color: #f1ffb6;
+    font-family: "National Park";
+    font-size: 16px;
+    font-weight: 600;
+    margin: 5px 0 0 0;
+    letter-spacing: 5px;
+}
+.Footer_Info{
+    height: 165px;
+    background-color: #5d8843;
+    display: flex;    
+    justify-content: center;
+    gap: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  
+}
+.Footer_Info_Data{
+    height: 100%;
+    display: flex;
+    flex-direction: column;   
+    justify-content: center;
+    gap: 3px;
+}
+.Footer_Info_Data a{
+    text-decoration: none;
+}
+.Footer_Info_Contacto{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.Contacto_Item{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.Contacto_Item i{
+    font-size: 20px;
+    color: #f1ffb6;
+    width: 25px;
+    text-align: center;
+}
+
+.Contacto_Item p{
+    color: #f5f1d8;
+    font-family: "National Park";
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.Footer_Maps{
+    height:100%;
+    width: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-left: 2px solid rgba(245, 241, 216, 100);
+    border-right: 2px solid rgba(245, 241, 216, 100);    
+     
+}
+.Footer_Maps iframe{
+    width: 100%;
+    height: 100%;
+    border: 0;
+    display: block;
+}
+
+.Footer_Media{
+    display: flex;
+    flex-direction: column;   
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.Footer_Media h2{
+    color: #f1ffb6;
+    font-family: "National Park";
+    font-size: 20px;
+    font-weight: 800; 
+}
+.Footer_Media_Icon{
+    display: flex;
+    gap: 20px;   
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+   
+}
+.Footer_Media_Icon a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease;
+
+}
+.Footer_Media_Icon i{
+    font-size: 30px;
+    color: #f5f1d8;
+    transition: color 0.3s ease;
+
+}
+.Footer_Media_Icon a:hover{
+    transform: scale(1.15);
+
+}
+.Footer_Media_Icon a:hover i{
+    color: #474f41;
+
+}
+
+.Footer_Cierre{
+    height: 55px;
+    background-color: #9dba3b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Footer_Cierre p{
+    color: #f5f1d8;
+    font-family: "National Park";
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+}
+
+/* ========================================
+   FIN footer - ESCRITORIO
+======================================== */
+
+/* =========================
+   INICIO-FOOTER  celular
+========================= */
+@media (max-width: 768px){
+
+    .Footer_Logo {
+        height: auto;
+        min-height: 100px;
+        padding: 15px 20px;
+        flex-direction: column;
+        gap: 8px;
+        text-align: center;
+    }
+
+    .Footer_Logo h2 {
+        font-size: 15px;
+        letter-spacing: 3px;
+        margin: 0;
+        display: none;
+    }
+
+    .Footer_Logo img {
+        height: 35px;
+    }
+
+    .Footer_Logo p {
+        font-size: 12px;
+        font-weight: 400;
+        letter-spacing: 2px;
+        margin: 0;
+    }
+
+
+    /* INFORMACIÓN */
+
+    .Footer_Info {
+        height: auto;
+        padding: 25px 20px;         
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+    }
+  
+ 
+
+    .Footer_Info_Data {
+        height: auto;
+        width: 100%;       
+        align-items: center;
+        gap: 20px;
+        
+        
+    }
+
+   .Contacto_Item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+    .Contacto_Item i {
+        font-size: 18px;
+        color: #ffd500;         
+    }
+
+    .Contacto_Item p {
+        font-size: 16px;
+        font-weight: 200;
+        text-align: center;
+    }
+    /* MAPA */
+
+    .Footer_Maps {
+        display: none;
+    }
+
+    /* REDES */
+
+    .Footer_Media {
+        height: auto;
+        width: 100%;
+    }
+
+    .Footer_Media h2 {
+        font-size: 15px;
+        margin-bottom: 5px;
+        color: #ffd500;
+    }
+
+    .Footer_Media_Icon {
+        gap: 18px;
+        height: 50px;
+    }
+
+    .Footer_Media_Icon i {
+        font-size: 30px;
+    }
+    .Footer_Media_Icon a {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+     
+}
+    /* CIERRE */
+
+    .Footer_Cierre {
+        height: auto;
+        min-height: 45px;
+        padding: 10px 15px;
+        text-align: center;
+        
+    }
+    .Footer_Cierre p {
+        font-size: 13px;
+        line-height: 1.4;
+    }
+
+}
+
+/* =========================
+   FIN/FOOTER celular
+========================= */

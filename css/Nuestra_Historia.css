@@ -1,0 +1,462 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    width: 100%;
+    overflow-x: hidden;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+.Hero_Historia { 
+    margin-top: 74px; 
+    height: 100vh; 
+    width: auto;
+    background-image: url(../Assets/png/Hero\ historia.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.Hero_Historia_Container{
+    height: 100%;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.Hero_Historia_Container h1{
+     color: #ffd500; 
+    font-family: "National Park";
+    font-size: 25px;
+    font-weight: 400;
+    margin: 0;
+    letter-spacing: 5px;
+}
+.Hero_Historia_Container h2{
+    color: #f5f1d8;
+    font-family: "National Park";
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 10px;
+     
+}
+.Hero_Historia_Container img{
+    height: auto;
+    width: 60px;    
+    transition: ease-in-out;
+}
+.Hero_Historia_Container img:hover{
+    transform: scale(1.2);    
+}
+
+
+.Time_Line{
+    width: 100%;
+    aspect-ratio: 16/9;      
+    position: relative;
+    overflow: hidden;
+}
+.Time_Line_Mobile { /* esto oculta el time line mobile en la de escritorio*/
+    display: none;
+}
+.Time_Line_Container {
+    height: 100%;
+    width: 100%;    
+    background-image: url(../Assets/png/prueba\ 1\ slide.png);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative; 
+}
+.Time_Line_Container_Fecha{
+    position: absolute;
+    left: 3%;
+    top: 40%;
+    width: 30%;
+    height: 100%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+     
+}
+.Time_Line_Container_Fecha h2{
+    font-size: 300px;
+    line-height: 76%;  
+    color: #f5f1d8;
+    font-family: "National Park";     
+    font-weight: 800;
+    opacity: 40%;
+    margin: 0;
+}
+.Time_Line_Container_Fecha p{    
+     
+    text-align: center;   
+    font-size: 70px;
+    color:#f1ffb6;     
+    font-family: "National Park";    
+    font-weight: 400;    
+    letter-spacing: 5px;  
+    margin: -17vw 0 0;    
+    
+
+}
+.Time_Line_Container_Textos{    
+    position: absolute;
+    left: 70%;
+    top: 45%;
+    width: 600px;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+     
+}
+.Time_Line_Container_Textos h3 {
+    color:#f5f1d8; 
+    font-family: "National Park";
+    font-size: 45px;
+    font-weight: 800; 
+    text-shadow: 4px 4px rgba(71, 79, 65, 0.3);
+    margin: 0;  
+    line-height: 45px;
+      
+}
+.Time_Line_Linea{    /* linea separa titulo texto slider */
+    width: 90%;
+    height: 3px;
+    background-color: #ffd500;
+    border: none;
+    margin: 8px 0 8px ;
+}
+.Time_Line_Nav_Linea::before{
+    content: "";
+    position: absolute;
+     left: var(--progreso-left);
+    top: 0;
+    height: 100%;
+    width: var(--progreso-width);
+    background-color: #9dba3b;
+}
+.Time_Line_Container_Textos p{ /* parrafo texto slider */
+    width: 80%;  
+    color:#f5f1d8;    
+    font-family: "National Park"; 
+    font-size: 15px;   
+    font-weight: 400;
+    text-align: justify;  
+    padding: 10px 18px;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgba(71, 79, 65, 0.7);
+}
+
+.Time_Line_Nav{     /* inicia nevegación  */
+    width: 70%;
+    position: absolute;      
+    left: 50%;
+    bottom: 18%;
+    transform: translateX(-50%);  
+     
+     
+     
+     
+}
+.Time_Line_Nav_Año{    /* años  nevegación  */
+    width: 100%;
+    height: 60px;
+    display: flex;    
+    align-items: center;    
+    justify-content: space-around;
+    position: relative;
+}
+
+.Time_Line_Nav i{  /* botones (flechas)  nevegación  */
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgba(93, 136, 67, 0.815);
+    text-align: center;
+    justify-content: center;
+    font-size: 50px;     
+    color: #f1ffb6;  
+    position: relative;
+    z-index: 3;
+    flex-shrink: 0;
+}
+.Time_Line_Nav i:hover{
+    transform: scale(1.15);
+    color: #9dba3b;
+    cursor: pointer;
+     background-color: rgba(166, 67, 67, 0.815);
+      
+}
+
+.Time_Line_Año{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+     cursor: pointer;
+}
+.Time_Line_Punto{
+    width: 14px;
+    height: 14px;
+    background-color: #9dba3b;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.Time_Line_Punto:hover{
+    transform: translateY(-50%) scale(1.3);
+    background-color: #a64343;
+   
+}
+.Time_Line_Año.activo .Time_Line_Punto {
+    transform: translateY(-50%) scale(1.5);
+    background-color: #a64343;
+    border: 1px solid #ffffff;
+    box-shadow: 0 0 4px rgba(255, 255, 255, 0.9);
+}
+ 
+ 
+.Time_Line_Nav_Año p{
+    color:#f5f1d8;    
+    font-family: "National Park"; 
+    font-size: 18px;   
+    font-weight: 600;
+    margin-top: 40px;
+    transition: transform 0.2s ease;
+}
+.Time_Line_Nav_Año p:hover{
+    transform:scale(1.3);
+    color: #a64343;
+}
+.Time_Line_Nav_Linea{
+    position: absolute;
+    left: 25px;
+    right: 25px;
+    height: 4px;
+    background-color: #f1ffb6;
+    border: none;
+    top: 50%;
+    transform: translateY(-50%);
+   
+}
+/* =========================
+   Empieza version celular
+========================= */
+
+@media (max-width: 768px) {
+
+
+/* =========================
+   INICIO/HERO
+========================= */
+.Hero_Historia {
+        margin-top: 75px;
+        height: 50vh;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+ }
+
+.Hero_Historia_Container {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+}
+
+.Hero_Historia_Container h1 {
+        font-size: 16px;
+        letter-spacing: 3px;
+}
+
+.Hero_Historia_Container h2 {
+        font-size: 28px;
+        margin-bottom: 10px;
+}
+
+.Hero_Historia_Container img {
+        width: 45px;
+    }
+/* =========================
+   FIN/HERO
+========================= */
+/* =========================
+   INICIO/TIME LINE
+========================= */
+.Time_Line {
+    width: 100%;
+    height: auto;
+    aspect-ratio: auto;
+    
+}
+
+
+.Time_Line_Container {
+    display: none;
+    
+}
+
+.Time_Line_Mobile {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #f5f1d8;    
+}
+
+.Time_Line_Mobile_Item {
+    width: 100%;
+    min-height: 320px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+   
+}
+
+.Time_Line_Mobile_Imagen {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    
+    box-shadow: 2px 5px 4px 2px rgba(35, 37, 34, 0.44);
+    color: #5d8843;
+     
+    
+}
+
+.Time_Line_Mobile_Imagen img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;     
+    display: block;
+}
+/*me sirve para mover horizontal o vertical cada imagen individual*/
+
+.Time_Line_Mobile_Item:nth-child(3) .Time_Line_Mobile_Imagen img {
+    object-position: 65% center;
+}
+.Time_Line_Mobile_Item:nth-child(4) .Time_Line_Mobile_Imagen img {
+    object-position: 70% center;
+}
+.Time_Line_Mobile_Item:nth-child(6) .Time_Line_Mobile_Imagen img {
+    object-position: 20% center;
+}
+.Time_Line_Mobile_Item:nth-child(7) .Time_Line_Mobile_Imagen img {
+    object-position: 45% center;
+}
+.Time_Line_Mobile_Item:nth-child(11) .Time_Line_Mobile_Imagen img {
+    object-position: 5% center;
+}
+.Time_Line_Mobile_Item:nth-child(12) .Time_Line_Mobile_Imagen img {
+    object-position: 70% center;
+}
+
+.Time_Line_Mobile_Texto {
+    width: 100%;
+    height: 100%;
+    padding: 30px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+/* FECHA */
+
+.Time_Line_Mobile_Fecha {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    z-index: 2;    
+    align-items: start;
+    
+}
+
+.Time_Line_Mobile_Fecha h2 {
+    color: #f5f1d8;
+    font-family: "National Park";
+    font-size: 80px;
+    font-weight: 800;
+    line-height: .8;
+    margin: 0;
+    opacity: 70%;
+}
+
+.Time_Line_Mobile_Fecha p {
+    color: #f5f1d8;
+    font-family: "National Park";
+    font-size: 18px;
+    font-weight: 600;
+    text-shadow: 2px 2px rgba(71, 79, 65, 0.9);
+      
+    
+}
+
+
+/* TITULO */
+
+.Time_Line_Mobile_Texto h3 {
+    color: #a64343;
+    font-family: "National Park";
+    font-size: 20px;
+    font-weight: 800;
+    line-height: .95;
+    margin: 0 0 10px;
+    padding: 0 0 5px;
+    border-bottom: 2px solid #5d8843;
+     
+}
+/* DESCRIPCION */
+
+.Time_Line_Mobile_Texto p {
+    color: #474f41;
+    font-family: "National Park";
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 1.15;
+    margin: 0;
+    text-transform: lowercase;
+    
+}
+.Time_Line_Mobile_Item{
+    border-bottom: 2px solid #474f41;
+}
+}
+
+/* =========================
+   FIN/TIME LINE
+========================= */
+
+
+ 
+
+/* =========================
+   termina  version celular
+========================= */
+
+
+
+
+
+ 
+
+
+

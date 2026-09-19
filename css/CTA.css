@@ -1,0 +1,100 @@
+/* ========================================
+   CTA
+======================================== */
+
+.CTA_Section {
+    width: 100%;
+    height: 190px;
+    background-color: #a64343;
+}
+
+.CTA_Container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.CTA_Titulo {
+    font-family: "National Park";
+    font-size: 40px;
+    font-weight: 300;
+    color: #f1ffb6;
+    margin: 0 0 5px;
+}
+
+.CTA_Texto {
+    font-family: "National Park";
+    font-size: 22px;
+    font-weight: 600;
+    color: #f5f1d8;
+    margin: 0 0 12px;
+}
+
+.CTA_Boton {
+    width: 300px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "National Park";
+    font-size: 20px;
+    font-weight: 400;
+    color: #f1ffb6;
+    background-color: #9dba3b;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: .3s ease;
+}
+
+.CTA_Boton:hover {
+    transform: scale(1.1);
+    font-family: "National Park";
+    font-size: 20px;
+    font-weight: 800;
+    color: #5d8843;
+    background-color: #ffd500;
+}
+
+
+/* ========================================
+   CTA - CELULAR
+======================================== */
+
+@media (max-width: 768px) {
+
+    .CTA_Section {
+        width: 100%;
+        height: 180px;
+    }
+
+    .CTA_Container {
+        width: 100%;
+        height: 100%;
+        padding: 0 20px;
+    }
+
+    .CTA_Titulo {
+        font-size: 27px;
+        line-height: 1;
+        margin: 0 0 8px;
+    }
+
+    .CTA_Texto {
+        font-size: 15px;
+        line-height: 1.2;
+        margin: 0 0 15px;
+    }
+
+    .CTA_Boton {
+        width: 80%;
+        max-width: 300px;
+        height: 40px;
+        font-size: 17px;
+        border-radius: 7px;
+    }
+
+}
