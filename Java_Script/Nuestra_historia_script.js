@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
         mes: "Diciembre",
         titulo: "LAS RAICES",
         texto: "CON TRABAJO, SUDOR Y MUCHA DEDICACIÓN, UNA JOVEN PAREJA BOYACENSE CONSTRUYÓ SU HOGAR EN UNA DE LAS MONTAÑAS DE CUCAITA. ALLÍ NACIÓ EL REFUGIO DE UNA FAMILIA CAMPESINA, RODEADA DE AMOR, RESPETO POR LA NATURALEZA Y CARIÑO POR LOS ANIMALES",
-        imagen: "../Assets/png/slide1.webp",
+        imagen: "Assets/png/slide1.webp",
     },
 
     {
@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
         mes: "Marzo",
         titulo: "EL SUEÑO",
         texto: "LA PANDEMIA CAMBIA EL RITMO DE LA VIDA. ES MOMENTO DE VOLVER A LAS RAÍCES, AL CAMPO Y A UNA VIDA MÁS TRANQUILA, RODEADA DE NATURALEZA.",
-        imagen: "../Assets/png/slide2.webp",
+        imagen: "Assets/png/slide2.webp",
 
     },
     {
@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
         mes: "Abril",
         titulo: "EL PRIMER<br>REFUGIO",
         texto: "COMIENZA LA CONSTRUCCIÓN DE UN PEQUEÑO TIPI. UN PRIMER ESPACIO PENSADO PARA REFUGIARSE, DESCONECTARSE Y VOLVER A DISFRUTAR DE LO SENCILLO.",
-        imagen: "../Assets/png/slide3.webp",
+        imagen: "Assets/png/slide3.webp",
     },
     {
         año1: "20",
@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
         mes: "Mayo",
         titulo: "DONDE NO<br>CRECÍA NADA",
         texto: "EN MEDIO DE PIEDRAS Y TIERRA EMPIEZAN A APARECER FLORES. POCO A POCO, AQUEL LUGAR QUE PARECÍA NO TENER VIDA COMIENZA A TRANSFORMARSE.",
-        imagen: "../Assets/png/slide4.webp",
+        imagen: "Assets/png/slide4.webp",
     },
     {
         año1: "20",
@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", () => {
         mes: "Octubre",
         titulo: "EL PRIMER<br>GRAN PASO",
         texto: "LA PRIMERA CABAÑA ESTÁ TERMINADA. EL SUEÑO EMPIEZA A CONVERTIRSE EN ALGO TANGIBLE Y EL LUGAR COMIENZA A TOMAR UNA NUEVA FORMA.",
-        imagen: "../Assets/png/slide5.webp",
+        imagen: "Assets/png/slide5.webp",
     },
       {
         año1: "20",
@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", () => {
         mes: "Noviembre",
         titulo: "LOS PRIMEROS<br>HABITANTES",
         texto: "LLEGAN LAS PRIMERAS GALLINAS. CON ELLAS COMIENZA A CRECER LA RELACIÓN ENTRE EL PROYECTO, LOS ANIMALES Y LAS PERSONAS.",
-        imagen: "../Assets/png/slide6.webp",
+        imagen: "Assets/png/slide6.webp",
     },
     {
         año1: "20",
@@ -59,7 +59,7 @@ document.addEventListener("DOMContentLoaded", () => {
         mes: "Marzo",
         titulo: "RESCATAR<br>LAS RAÍCES",
         texto: "SE RECUPERA Y RESTAURA LA ANTIGUA CASA FAMILIAR. NO SE TRATA SOLAMENTE DE CONSTRUIR ALGO NUEVO, SINO DE CONSERVAR Y RESCATAR AQUELLO QUE YA EXISTÍA.",
-        imagen: "../Assets/png/slide7.webp",
+        imagen: "Assets/png/slide7.webp",
     },
     {
         año1: "20",
@@ -67,7 +67,7 @@ document.addEventListener("DOMContentLoaded", () => {
         mes: "Julio",
         titulo: "CUANDO TODO<br>SE DETIENE",
         texto: "EL PROYECTO ATRAVIESA UNA ETAPA DIFÍCIL. LOS RECURSOS, EL CANSANCIO Y LAS CIRCUNSTANCIAS HACEN QUE EL CRECIMIENTO TENGA QUE DETENERSE.",
-        imagen: "../Assets/png/slide8.webp",
+        imagen: "Assets/png/slide8.webp",
     },
       {
         año1: "20",
@@ -75,7 +75,7 @@ document.addEventListener("DOMContentLoaded", () => {
         mes: "Octubre",
         titulo: "VOLVER<br>A AVANZAR",
         texto: "DESPUÉS DE UN PERIODO DE PAUSA, EL PROYECTO VUELVE A TOMAR FUERZA. SE RETOMAN LOS TRABAJOS Y VUELVE LA ILUSIÓN DE SEGUIR CONSTRUYENDO.",
-        imagen: "../Assets/png/slide9.webp",
+        imagen: "Assets/png/slide9.webp",
     },
       {
         año1: "20",
@@ -83,7 +83,7 @@ document.addEventListener("DOMContentLoaded", () => {
         mes: "Diciembre",
         titulo: "ALGO QUE<br>DEBÍA COMPARTIRSE",
         texto: "LO QUE COMENZÓ COMO UN PROYECTO FAMILIAR EMPIEZA A DESPERTAR LA IDEA DE COMPARTIR ESE LUGAR CON OTRAS PERSONAS.",
-        imagen: "../Assets/png/slide10.webp",
+        imagen: "Assets/png/slide10.webp",
     },
       {
         año1: "20",
@@ -91,7 +91,7 @@ document.addEventListener("DOMContentLoaded", () => {
         mes: "Enero",
         titulo: "UNA FAMILIA<br>DE ANIMALES",
         texto: "LA PRESENCIA DE LOS ANIMALES CRECE Y SE CONVIERTE EN UNA PARTE FUNDAMENTAL DE LA IDENTIDAD DEL LUGAR.",
-         imagen: "../Assets/png/slide11.webp",
+         imagen: "Assets/png/slide11.webp",
     },
       {
         año1: "20",
@@ -99,7 +99,7 @@ document.addEventListener("DOMContentLoaded", () => {
         mes: "Diciembre",
         titulo: "NACE EL PARQUE",
         texto: "TODO LO CONSTRUIDO DURANTE ESTOS AÑOS ENCUENTRA FINALMENTE UN NOMBRE Y UN PROPÓSITO: NACE FORMALMENTE EL PARQUE.",
-        imagen: "../Assets/png/slide12.webp",
+        imagen: "Assets/png/slide12.webp",
     },
     
     ];
