@@ -434,7 +434,10 @@ body{
     line-height: 1.15;
     margin: 0;
     text-transform: lowercase;
-    
+   
+}
+    .Time_Line_Mobile_Texto p::first-letter {
+    text-transform: uppercase;
 }
 .Time_Line_Mobile_Item{
     border-bottom: 2px solid #474f41;
@@ -451,6 +454,146 @@ body{
 /* =========================
    termina  version celular
 ========================= */
+
+/* ========================================
+   HERO HISTORIA - TABLET
+======================================== */
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    .Hero_Historia {
+        margin-top: 80px;
+        height: 50vh;
+    }
+
+    .Hero_Historia_Container {
+        padding: 0 30px;
+    }
+
+    .Hero_Historia_Container h1 {
+        font-size: 21px;
+        letter-spacing: 4px;
+        text-align: center;
+    }
+
+    .Hero_Historia_Container h2 {
+        font-size: 35px;
+        text-align: center;
+        margin-bottom: 12px;
+    }
+
+    .Hero_Historia_Container img {
+        width: 55px;
+    }
+.Time_Line {
+        width: 100%;
+        height: auto;
+        aspect-ratio: auto;
+    }
+
+    .Time_Line_Container {
+        display: none;
+    }
+
+    .Time_Line_Mobile {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 35px;
+        width: 100%;
+        padding: 50px 45px;
+        background-color: #f5f1d8;
+        box-sizing: border-box;
+    }
+     .Time_Line_Mobile_Item {
+        width: 100%;
+        min-height: auto;
+        display: flex;
+        flex-direction: column;
+        background-color: #f5f1d8;
+        border-bottom: none;
+    }
+
+    .Time_Line_Mobile_Imagen {
+        position: relative;
+        width: 100%;
+        height: 240px;
+        overflow: hidden;
+        box-shadow: 2px 5px 4px 2px rgba(35, 37, 34, 0.25);
+        border-radius: 10%;
+    }
+
+    .Time_Line_Mobile_Imagen img {
+        width: 100%;
+        height: 100%;
+       
+        object-fit: cover;
+        display: block;
+    }
+
+    .Time_Line_Mobile_Texto {
+        width: 100%;
+        height: auto;
+        padding: 20px 20px 25px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+     .Time_Line_Mobile_Fecha {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        z-index: 2;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .Time_Line_Mobile_Fecha h2 {
+        color: #f5f1d8;
+        font-family: "National Park";
+        font-size: 110px;
+        font-weight: 800;
+        line-height: .8;
+        margin: 0;
+        opacity: 70%;
+    }
+
+    .Time_Line_Mobile_Fecha p {
+        color: #f5f1d8;
+        font-family: "National Park";
+        font-size: 25px;
+        font-weight: 600;
+        margin: 5px 0 0;
+        text-shadow: 2px 2px rgba(71, 79, 65, 0.9);
+    }
+
+    .Time_Line_Mobile_Texto h3 {
+        color: #a64343;
+        font-family: "National Park";
+        font-size: 20px;
+        font-weight: 800;
+        line-height: 1;
+        margin: 0 0 10px;
+        padding: 0 0 6px;
+        border-bottom: 2px solid #5d8843;
+    }
+
+    .Time_Line_Mobile_Texto p {
+        color: #474f41;
+        font-family: "National Park";
+        font-size: 18px;
+        font-weight: 200;
+        line-height: 1.2;
+        margin: 0;
+        text-transform: lowercase;
+    }
+    .Time_Line_Mobile_Texto p::first-letter {
+    text-transform: uppercase;
+}
+
+
+}
 
 
 

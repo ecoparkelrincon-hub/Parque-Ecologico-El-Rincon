@@ -506,6 +506,131 @@ LO QUE NOS VUELVE ÚNICOS /FIN
    termina  version celular
 ========================= */
 
+/* =========================
+   INICIA  version TABLET
+========================= */
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .hero {
+        height: 50vh;
+        margin-top: 80px;
+    }
+
+    .Hero_Container {
+        gap: 20px;
+        transform: translateY(150px);
+    }
+
+    .Logo_Hero img {
+        height: 70px;
+    }
+
+    .Linea_Hero {
+        width: 2px;
+        height: 90px;
+    }
+
+    .Textos_Hero h1 {
+        font-size: 32px;
+    }
+
+    .Textos_Hero p {
+        font-size: 21px;
+        letter-spacing: 4px;
+    }
+
+    .Introduccion_Container {
+        height: 280px;
+        gap: 40px;
+    }
+
+    .Introduccion_Imagen {
+        width: 45%;
+    }
+
+    .Introduccion_textos {
+        width: 55%;
+    }
+
+    .Introduccion_contenido {
+        width: 75%;
+    }
+
+    .Introduccion_textos h2 {
+        font-size: 32px;
+    }
+
+
+    .Unicos {
+        padding: 60px 50px 70px;
+    }
+
+    .Unicos_Encabezado {
+        margin-bottom: 45px;
+    }
+
+    .Unicos_Encabezado > p {
+        font-size: 20px;
+        letter-spacing: 5px;
+    }
+
+    .Unicos_Encabezado h2 {
+        font-size: 65px;
+        margin: 8px 0 18px;
+    }
+
+    .Unicos_Descripcion {
+        width: 550px;
+    }
+
+    .Unicos_Descripcion p {
+        font-size: 19px;
+    }
+
+    .Unicos_Experiencias {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 45px 35px;
+    }
+
+    .Experiencia_Imagen {
+        height: 230px;
+        margin-bottom: 20px;
+    }
+
+    .Experiencia_Contenido span {
+        font-size: 36px;
+    }
+
+    .Experiencia_Contenido h3 {
+        font-size: 25px;
+    }
+
+    .Experiencia_Contenido > p {
+        font-size: 17px;
+        min-height: 65px;
+    }
+
+    .Experiencia_Link {
+        margin-top: 15px;
+    }
+
+    .Experiencia_Link p {
+        font-size: 17px;
+    }
+}
+
+
+    
+
+
+
+
+    
+
+
+
+
+
 
 
     

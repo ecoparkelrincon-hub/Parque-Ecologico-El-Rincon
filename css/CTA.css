@@ -98,3 +98,39 @@
     }
 
 }
+
+/* ========================================
+   CTA - TABLET
+======================================== */
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    .CTA_Section {
+        height: 180px;
+    }
+
+    .CTA_Container {
+        padding: 0 30px;
+    }
+
+    .CTA_Titulo {
+        font-size: 34px;
+        margin: 0 0 7px;
+    }
+
+    .CTA_Texto {
+        font-size: 22px;
+        margin: 0 0 14px;
+    }
+
+    .CTA_Boton {
+        width: 280px;
+        height: 40px;
+        font-size: 18px;
+        border-radius: 7px;
+    }
+
+    .CTA_Boton:hover {
+        font-size: 18px;
+    }
+}

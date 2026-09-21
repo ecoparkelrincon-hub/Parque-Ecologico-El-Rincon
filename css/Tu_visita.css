@@ -653,6 +653,233 @@ body{
    termina  version celular
 ========================= */
 
+/* ========================================
+   INICIA VERSION - TABLET
+======================================== */
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    .Hero_Tu_Visita {
+        margin-top: 80px;
+        height: 50vh;
+    }
+
+    .Tu_Visita_Container {
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+
+    .Tu_Visita_Container h1 {
+        width: 90%;
+        font-size: 40px;
+        line-height: 1;
+    }
+
+    .Tu_Visita_Container p {
+        width: 90%;
+        font-size: 25px;
+        letter-spacing: 4px;
+        margin: 0 0 25px 0;
+    }
+
+    .Flecha_Hero {
+        width: 55px;
+    }
+
+    .Loro_Derecha {
+        right: -50%;
+        top: 48%;
+        width: 90%;
+    }
+
+    .Loro_Izquierda {
+        display: none;
+    }
+
+.Antes_De_Venir {
+        width: 100%;
+        min-height: auto;
+        padding: 60px 45px 70px;
+    }
+
+    .Antes_De_Venir_Container {
+        width: 100%;
+        max-width: none;
+    }
+
+    .Antes_De_Venir_Container h2 {
+        font-size: 44px;
+        line-height: 1;
+        margin: 0 0 10px;
+    }
+
+    .Antes_De_Venir_Subtitulo {
+        font-size: 25px;
+        letter-spacing: 2px;
+        line-height: 1.3;
+        margin: 0 0 40px;
+    }
+
+    .Informacion_Visita {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    }
+
+    .Info_Card {
+        width: 100%;
+        min-height: 330px;
+        border-radius: 12px;
+    }
+
+     /* =========================
+       CONTENIDO DE LAS TARJETAS
+    ========================= */
+
+    .Info_Card::before {
+        inset: 12px;
+        border: 4px dashed #f1ffb6;
+    }
+
+    .Info_Card_Numero {
+        left: 15px;
+        top: -8px;
+        font-size: 180px;
+    }
+
+    .Antes_De_Venir_Icon {
+        left: 50%;
+        top: 65px;
+        transform: translateX(-50%);
+        width: 75px;
+        height: 75px;
+    }
+
+    .Antes_De_Venir_Icon i {
+        font-size: 52px;
+    }
+
+    .Info_Card.Entradas i {
+        font-size: 52px;
+    }
+
+    .Info_Card.Convi i {
+        font-size: 52px;
+    }
+
+    .Info_Card_Contenido {
+        position: absolute;
+        left: 25px;
+        right: 25px;
+        top: 155px;
+        transform: none;
+        text-align: center;
+        align-items: center;
+    }
+
+    .Info_Card_Contenido h3 {
+        font-size: 25px;
+        line-height: 1;
+        margin: 0 0 10px;
+    }
+
+    .Info_Card_Contenido h4 {
+        font-size: 16px;
+        line-height: 1.3;
+        margin: 0;
+    }
+
+    .Info_Card_Contenido p {
+        font-size: 14px;
+        line-height: 1.3;
+        margin: 0;
+    }
+
+    .Time_Line_Linea {
+        width: 100%;
+        height: 2px;
+        min-height: 2px;
+        margin: 7px 0;
+    }
+
+    .Info_Card:nth-child(1) {
+        min-height: 350px;
+    }
+
+    .Info_Card:nth-child(2) {
+        min-height: 350px;
+    }
+
+    .Info_Card:nth-child(3),
+    .Info_Card:nth-child(4) {
+        min-height: 320px;
+    }
+
+    .Info_Card:nth-child(5) {
+        min-height: 350px;
+    }
+
+    .Info_Card:nth-child(6) {
+        min-height: 380px;
+    }
+ .Preguntas_Frecuentes {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    .Preguntas_Frecuentes_Container {
+        width: 100%;
+        padding: 60px 40px 0;
+        box-sizing: border-box;
+    }
+
+    .Preguntas_Frecuentes_Container_Textos h2 {
+        font-size: 36px;
+        margin: 0 0 35px;
+    }
+
+    .Preguntas_Frecuentes_Container_Pregunta {
+        width: 100%;
+        max-width: 850px;
+    }
+
+    .Pregunta_Titulo {
+        width: 100%;
+        min-height: 55px;
+    }
+
+    .Pregunta_Titulo h2 {
+        font-size: 19px;
+        padding: 8px 15px 8px 0;
+    }
+
+    .Pregunta_Boton {
+        width: 35px;
+        height: 35px;
+        font-size: 26px;
+        flex-shrink: 0;
+    }
+
+    .Pregunta_Respuesta {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .Pregunta_Respuesta p {
+        width: 90%;
+        font-size: 18px;
+        line-height: 1.45;
+    }
+
+    .Pregunta_Respuesta p b {
+        font-size: 18px;
+    }
+    
+
+}
+
 
  
   

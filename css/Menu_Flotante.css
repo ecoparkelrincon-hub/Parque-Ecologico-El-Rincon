@@ -131,3 +131,126 @@
     }
 
 }
+
+/* =========================
+   MENÚ FLOTANTE - TABLET
+========================= */
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    .Contacto_Flotante {
+        position: fixed;
+        right: 40px;
+        bottom: 40px;
+        z-index: 900;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 14px;
+    }
+
+    /* BOTÓN PRINCIPAL */
+
+    .Contacto_Flotante_Boton {
+        width: 60px;
+        height: 60px;
+        border: none;
+        border-radius: 50%;
+        background-color: #a64343;
+        color: #f1ffb6;
+        font-size: 27px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25);
+        transition: transform 0.3s ease, background-color 0.3s ease;
+    }
+
+    .Contacto_Flotante_Boton:hover {
+        transform: scale(1.1);
+        background-color: #5d8843;
+    }
+
+    /* OPCIONES */
+
+    .Contacto_Flotante_Opciones {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        gap: 14px;
+    }
+
+    .Contacto_Flotante_Opciones.abierto {
+        display: flex;
+    }
+
+    /* BOTONES DE LAS OPCIONES */
+
+    .Contacto_Flotante_Opciones a {
+        width: 55px;
+        height: 55px;
+        border-radius: 50%;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        color: #f1ffb6;
+        background-color: #5d8843;
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.20);
+        transition: transform 0.3s ease, background-color 0.3s ease;
+    }
+
+    .Contacto_Flotante_Opciones a:hover {
+        transform: scale(1.1);
+        background-color: #9dba3b;
+    }
+
+    .Contacto_Flotante_Opciones i {
+        font-size: 30px;
+    }
+
+    /* ETIQUETA CONTÁCTANOS */
+
+    .Contacto_Flotante_Boton::before {
+        content: "CONTÁCTANOS";
+        position: absolute;
+        right: 70px;
+        padding: 8px 12px;
+        background-color: #ffffff;
+        color: #5d8843;
+        font-family: "National Park";
+        font-size: 13px;
+        font-weight: 800;
+        border-radius: 5px;
+        white-space: nowrap;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    }
+
+    /* COLORES DE LAS REDES */
+
+    .Flotante_Waze {
+        background-color: #33ccff !important;
+        color: #474f41 !important;
+    }
+
+    .Flotante_Waze:hover {
+        background-color: #2bbeee !important;
+    }
+
+    .Flotante_Instagram {
+        background: linear-gradient(45deg, #f9ce34, #ee2a7b, #6228d7) !important;
+        color: #ffffff;
+    }
+
+    .Flotante_Facebook {
+        background-color: #1877f2 !important;
+        color: #ffffff;
+    }
+
+    .Flotante_Tiktok {
+        background-color: #000000 !important;
+        color: #ffffff;
+    }
+}

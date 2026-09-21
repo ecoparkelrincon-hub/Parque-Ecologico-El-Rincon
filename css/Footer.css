@@ -288,3 +288,120 @@
 /* =========================
    FIN/FOOTER celular
 ========================= */
+
+/* =========================
+   FOOTER - TABLET
+========================= */
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    .Footer_Logo {
+        height: auto;
+        min-height: 110px;
+        padding: 18px 30px;
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .Footer_Logo h2 {
+        display: none;
+    }
+
+    .Footer_Logo img {
+        height: 45px;
+    }
+
+    .Footer_Logo p {
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: 3px;
+        margin: 0;
+    }
+
+    /* INFORMACIÓN */
+
+    .Footer_Info {
+        height: auto;
+        padding: 30px 40px;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .Footer_Info_Data {
+        height: auto;
+        width: 100%;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .Contacto_Item {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        width: 100%;
+        padding: 10px 20px;
+    }
+
+    .Contacto_Item i {
+        font-size: 20px;
+    }
+
+    .Contacto_Item p {
+        font-size: 18px;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    /* MAPA */
+
+    .Footer_Maps {
+        display: none;
+    }
+
+    /* REDES */
+
+    .Footer_Media {
+        height: auto;
+        width: 100%;
+    }
+
+    .Footer_Media h2 {
+        font-size: 17px;
+        margin-bottom: 5px;
+    }
+
+    .Footer_Media_Icon {
+        gap: 22px;
+        height: 55px;
+    }
+
+    .Footer_Media_Icon i {
+        font-size: 32px;
+    }
+
+    .Footer_Media_Icon a {
+        width: 48px;
+        height: 48px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+    }
+
+    /* CIERRE */
+
+    .Footer_Cierre {
+        height: auto;
+        min-height: 50px;
+        padding: 12px 20px;
+        text-align: center;
+    }
+
+    .Footer_Cierre p {
+        font-size: 14px;
+        line-height: 1.4;
+    }
+}

@@ -175,3 +175,97 @@ header{
    FIN/HEADER CELULAR
 ========================= */
 }
+/* =========================
+  INICIO/HEADER Tablet
+========================= */
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    .Header_Container {
+        position: relative;
+        justify-content: center;
+        padding: 10px 15px;
+    }
+
+    .Logo_Header img {
+        height: 80px;
+        padding-left: 0;
+    }
+
+    /* BOTÓN HAMBURGUESA */
+
+    .Menu_Hamburguesa {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        right: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 45px;
+        height: 45px;
+        padding: 0;
+        border: none;
+        background: none;
+        color: #5d8843;
+        font-size: 28px;
+        cursor: pointer;
+    }
+
+    /* MENÚ TABLET */
+
+    .menu ul {
+        display: none;
+        position: fixed;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        height: calc(100vh - 80px);
+        padding: 40px 30px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        background-color: rgb(241, 255, 182, 90%);
+        overflow-y: auto;
+    }
+
+    .menu ul.menu-abierto {
+        display: flex;
+    }
+
+    .menu li {
+        list-style: none;
+        border-top: 2px solid #9dba3b;
+        border-bottom: 2px solid #9dba3b;
+        width: 65%;
+    }
+
+    .menu a {
+        display: block;
+        font-size: 28px;
+        font-weight: 200;
+        text-align: center;
+        color: #5d8843;
+        text-decoration: none;
+    }
+
+    .menu a:hover {
+        font-size: 28px;
+        font-weight: 800;
+        text-align: center;
+        color: #a64343;
+    }
+
+    .menu a.pagina-activa {
+        font-weight: 800;
+    }
+
+    .Contacto_Menu {
+        display: none;
+    }
+
+    .Social_Media {
+        display: none;
+    }
+}
