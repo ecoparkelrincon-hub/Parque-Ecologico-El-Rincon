@@ -41,6 +41,14 @@ contenedorFlotante.innerHTML = `
             <i class="fa-solid fa-phone"></i>
         </a>
 
+         <a class="Flotante_Reviews"
+            href="https://g.page/r/CTgMzFYsd5cmEBE/review"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Dejar una reseña en Google">
+            <i class="fa-solid fa-star"></i>
+        </a>
+
         <!-- Instagram -->
         <a class="Flotante_Instagram"
            href="https://www.instagram.com/ecoparkelrincon/"
@@ -67,6 +75,7 @@ contenedorFlotante.innerHTML = `
            aria-label="TikTok">
             <i class="fa-brands fa-tiktok"></i>
         </a>
+       
 
     </div>
 `;
